@@ -1,0 +1,84 @@
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    margin: 20px 0 10px 0;
+}
+label {
+    display: block;
+    text-align: left;
+    margin: 5px 0;
+    color: #333;
+}
+input {
+    width: 30%;
+    padding: 8px 15px;
+    display: block;
+    margin: 5px 0;
+    border: none;
+    background-color: #dbdbdb;
+    outline: none;
+    color: #333;
+    border-radius: 25px;
+}
+input:focus {
+    border: 1px solid #67c96f;
+}
+button {
+    cursor: pointer;
+    padding: 8px 15px;
+    color: #fff;
+    background-color: #67c96f;
+    border-radius: 3px;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+}
+hr {
+    border: 1px solid #ccc;
+}
+ul li {
+    display: inline-flex;
+    margin-top: 1rem;
+    align-items: center;
+}
+.employee-card {
+    background-color: #4d9653;
+    padding: 1rem;
+    margin: 0 10px;
+    border-radius: 5px;
+}
+.employee-card .employee-name, .employee-age, .employee-country, .employee-position, .employee-wage {
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+    margin: 8px 0;
+}
+.employee-card .employee-name, .employee-age, .employee-country, .employee-position, .employee-wage em {
+    color: #333;
+}
+.employee-card .employee-name, .employee-age, .employee-country, .employee-position, .employee-wage span {
+    color: #fff;
+}
+/* .update-box {
+    display: flex;
+    align-items: center;
+} */
+.update-box input {
+    width: 50%;
+    margin: 0 auto;
+    padding: 5px 15px;
+    height: 15px;
+}
+.update-box button {
+    text-align: center;
+    margin: 10px;
+}
